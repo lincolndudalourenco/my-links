@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body{
@@ -41,7 +42,16 @@ a{
   display: block;
 
   width: 320px;
-  border-radius: 5px;
+  border-radius: 30px;
+
+  transition: transform 0.3s;
+}
+
+a:hover {
+  background-color: white;
+  color: orangered;
+
+  transform: scale(1.1);
 }
 
 footer {
